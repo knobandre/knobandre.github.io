@@ -213,8 +213,7 @@ nav ul li a:hover {
 .icons li {
   display: inline-block;
   margin: 15px;
-  transition: opacity 0.3s;
-  opacity: 0.5;
+
 }
 
 .icons li a {
@@ -222,8 +221,10 @@ nav ul li a:hover {
   width: 100%;
   height: 100%;
   font-size: 40px;
+  transition: color 0.5s, opacity 0.5s;
+  opacity: 0.5;
 }
 
-.icons li:hover {
+.icons li a:hover {
   opacity: 1;
 }
